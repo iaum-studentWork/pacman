@@ -44,11 +44,11 @@
 ```
 آسان ترین  agent  در فایل searchAgent.py  قرار دارد، به نام GoWestAgent که همیشه به سمت غرب میرود  ( که یک reflex agent است). با دستور زیر میتوانید GoWestAgent را اجرا کنید :
 ```python 
-python pacman.py --layout testMaze --Pacman GoWestAgent
+python pacman.py --layout testMaze --pacman GoWestAgent
 ```
 اما اوضاع برای این عامل وقتی که نیاز به چرخیدن باشد، بد می‌شود:
 ```python
-python pacman.py --layout tinyMaze --Pacman GoWestAgent
+python pacman.py --layout tinyMaze --pacman GoWestAgent
 ```	
 هنگامی که Pacman  به مشکلی برخورد میتوانید با CTRL+C  از برنامه خارج شوید.
 
